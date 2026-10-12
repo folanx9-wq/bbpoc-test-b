@@ -1,0 +1,10 @@
+pull_request_rules:
+  - name: bbpoc comment rule
+    conditions:
+      - "files~=.*"
+    actions:
+      comment:
+        message: bbpoc live author={{author}} head={{head}} title={{title}}
+queue_rules:
+  - name: default
+    conditions: []
