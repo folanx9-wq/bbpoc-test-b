@@ -7,4 +7,4 @@ pull_request_rules:
         message: bbpoc live author={{author}} head={{head}} title={{title}}
 queue_rules:
   - name: default
-    conditions: []
+    merge_conditions: []
